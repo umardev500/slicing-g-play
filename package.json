@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "postbuild": "purgecss --css assets/fonts/@mdi/font/css/materialdesignicons.css --content index.html --output assets/fonts/@mdi/font/css/mdi.css"
+  },
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^5.0.0"
+  }
+}
